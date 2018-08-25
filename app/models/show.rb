@@ -23,6 +23,10 @@ class Show < ActiveRecord::Base
     Show.order(name: :asc)
   end
   
+  def self.shows_by_alphabetical_order
+    Show.order(name: :asc)
+  end
+  
   
   
 end
